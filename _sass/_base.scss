@@ -294,6 +294,10 @@ header {
     padding-left:0;
 }
 
+.contact-box {
+    margin-top: 50px;
+}
+
 // Button Styles
 .btn-default {
     @include button-variant($theme-dark, white, white);
