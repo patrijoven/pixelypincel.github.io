@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  {% include header.html %}
+  <section id="post-header">
+    <h1 class="text-center"><strong>{{ page.title }}</strong></h1>
+    <h4 class="text-center">by <strong>{{page.autor}}</strong></h4>
+    <h4 class="text-center"><strong>{{ page.date | date_to_string }}</strong>
+      <small> . {{ page.category }} . <a href="{{ page.url }}#disqus_thread">Comments</a>
+        {% for tag in page.tags %}
+        <a href="/tag/{{ tag }}/">#{{ tag }}</a>
+        {% endfor %}
+      </small>
+    </h4>
+  </section>
+  {{content}}
+
+  <section id="post-navigation" class="container page-navigation">
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}"><i class="fa fa-chevron-left"></i> {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-chevron-right"></i></a>
+    {% endif %}
+  </section>
+
+  {% include contact.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
