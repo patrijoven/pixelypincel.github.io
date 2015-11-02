@@ -1,6 +1,6 @@
 # Site settings
 title: Pixel y Pincel
-email:
+email: pixelypincel@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pixelypincel.es" # the base hostname & protocol for your site
@@ -8,7 +8,9 @@ url: "http://pixelypincel.es" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 twitter_username: pixelypincel
-github_username:
+instagram_username: pixelypincel
+facebook_username: pixelypincel
+youtube_username: pixelypincel
 
 # Build settings
 markdown: kramdown
