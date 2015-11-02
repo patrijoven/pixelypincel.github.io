@@ -207,6 +207,13 @@ header {
 
 // Sections
 
+.avatar {
+  max-width: 250px;
+  border: 7px solid white;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
 .section-heading {
   margin-top: 0;
 }
@@ -282,6 +289,10 @@ header {
   h2 {
     margin: 0 auto 20px;
   }
+}
+
+.contact-with-us {
+  margin-top: 20px;
 }
 
 // Bootstrap Overrides
