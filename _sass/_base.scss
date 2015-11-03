@@ -113,7 +113,7 @@ aside {
     }
   }
   @media (min-width: 768px) {
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.2);
     border-color: rgba(white, .3);
     .navbar-header .navbar-brand {
       color: rgba(white, .7);
@@ -121,10 +121,18 @@ aside {
       &:focus {
         color: white;
       }
-    }
-    img {
-      height: 120px;
-      display: inline;
+      img {
+        height: 64px;
+        display: inline;
+        -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+        -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+        -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+        transition:width 300ms ease-in-out, height 300ms ease-in-out;
+      }
+      div {
+        vertical-align: top;
+        display: inline;
+      }
     }
     .nav > li > a,
     .nav > li > a:focus {
@@ -143,10 +151,10 @@ aside {
         &:focus {
           color: darken($theme-primary, 10%);
         }
-      }
-      img {
-        height: 100%;
-        display: inline;
+        img {
+          height: 100%;
+          display: inline;
+        }
       }
       .nav > li > a,
       .nav > li > a:focus {
@@ -156,6 +164,7 @@ aside {
         }
       }
     }
+
   }
 }
 
