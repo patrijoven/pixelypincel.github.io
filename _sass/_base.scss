@@ -122,6 +122,10 @@ aside {
         color: white;
       }
     }
+    img {
+      height: 120px;
+      display: inline;
+    }
     .nav > li > a,
     .nav > li > a:focus {
       color: rgba(white, .7);
@@ -139,6 +143,10 @@ aside {
         &:focus {
           color: darken($theme-primary, 10%);
         }
+      }
+      img {
+        height: 100%;
+        display: inline;
       }
       .nav > li > a,
       .nav > li > a:focus {
@@ -159,7 +167,6 @@ header {
   min-height: auto;
   @include background-cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
   .header-content {
