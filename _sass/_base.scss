@@ -87,6 +87,10 @@ aside {
       height: 100%;
       display: inline;
     }
+    div {
+      vertical-align: top;
+      display: inline;
+    }
   }
   .nav {
     > li {
@@ -128,10 +132,6 @@ aside {
         -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
         -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
         transition:width 300ms ease-in-out, height 300ms ease-in-out;
-      }
-      div {
-        vertical-align: top;
-        display: inline;
       }
     }
     .nav > li > a,
