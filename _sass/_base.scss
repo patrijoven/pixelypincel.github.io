@@ -83,6 +83,10 @@ aside {
     &:focus {
       color: darken($theme-primary, 10%);
     }
+    img {
+      height: 100%;
+      display: inline;
+    }
   }
   .nav {
     > li {
