@@ -117,7 +117,7 @@ aside {
     }
   }
   @media (min-width: 768px) {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-color: rgba(white, .3);
     .navbar-header .navbar-brand {
       color: rgba(white, .7);
@@ -128,10 +128,10 @@ aside {
       img {
         height: 64px;
         display: inline;
-        -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
-        -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
-        -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
-        transition:width 300ms ease-in-out, height 300ms ease-in-out;
+        -webkit-transition: width 300ms ease-in-out, height 300ms ease-in-out;
+        -moz-transition: width 300ms ease-in-out, height 300ms ease-in-out;
+        -o-transition: width 300ms ease-in-out, height 300ms ease-in-out;
+        transition: width 300ms ease-in-out, height 300ms ease-in-out;
       }
     }
     .nav > li > a,
@@ -173,7 +173,6 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
   @include background-cover;
   background-position: center;
   text-align: center;
@@ -189,7 +188,7 @@ header {
         text-transform: uppercase;
         margin-top: 0;
         margin-bottom: 0;
-        text-shadow: rgba(0,0,0,0.2) 0px 2px;
+        text-shadow: rgba(0, 0, 0, 0.2) 0 2px;
       }
       hr {
         margin: 30px auto;
@@ -199,7 +198,7 @@ header {
         color: rgba(white, .7);
         font-size: 16px;
         margin-bottom: 50px;
-        text-shadow: rgba(0,0,0,0.2) 0px 2px;
+        text-shadow: rgba(0, 0, 0, 0.2) 0 2px;
       }
     }
   }
@@ -390,12 +389,13 @@ body {
   div#preloader {
     position: absolute;
     left: -9999px;
-    top:  -9999px;
+    top: -9999px;
   }
   div#preloader img {
     display: block;
   }
 }
+
 @media print {
   div#preloader,
   div#preloader img {
