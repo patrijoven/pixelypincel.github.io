@@ -259,14 +259,14 @@
           });
         }
 
-        // Scroll accepts cookies
-        $(document).scroll(function(e) {
-          if(($cookieAccepted) || ($cookieDeclined)) {
-            return;
-          }
-
-          acceptCookies(e);
-        });
+//        // Scroll accepts cookies
+//        $(document).scroll(function(e) {
+//          if(($cookieAccepted) || ($cookieDeclined)) {
+//            return;
+//          }
+//
+//          acceptCookies(e);
+//        });
 
         // for top bar
         $('.cc-cookie-accept, .cc-cookie-decline').click(acceptCookies);
