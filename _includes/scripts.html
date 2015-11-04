@@ -1,6 +1,9 @@
 <!-- jQuery -->
 <script src="/js/jquery.js"></script>
 
+<!-- paralax -->
+<script src="/js/parallax.min.js"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="/js/bootstrap.min.js"></script>
 
@@ -8,7 +11,6 @@
 <script src="/js/jquery.easing.min.js"></script>
 <script src="/js/jquery.fittext.js"></script>
 <script src="/js/wow.min.js"></script>
-<script src="/js/parallax.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/creative.js"></script>
@@ -44,4 +46,18 @@
 
   ga('create', 'UA-69677009-1', 'auto');
   ga('send', 'pageview');
+</script>
+
+<!-- Social feeds -->
+<script>
+
+  $(document).ready(function() {
+
+    setTimeout(function() {
+      $('#twitter-container').append('<script src="\/\/platform.twitter.com\/widgets.js"><\/script>')
+      var instagram = $('#instagram-container');
+      instagram.append('<script src="\/\/instansive.com\/widget\/js\/instansive.js"><\/script>');
+      instagram.append('<iframe src="\/\/instansive.com\/widgets\/9e646860aa7b54f72f234aa4d4fee9da43490bc9.html" id="instansive_9e646860aa" name="instansive_9e646860aa" scrolling="no" allowtransparency="true" class="instansive-widget" style="width:100%; border:0; overflow:hidden;"><\/iframe>');
+    }, 500);
+  });
 </script>
