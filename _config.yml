@@ -1,6 +1,6 @@
 # Site settings
 title: Pixel y Pincel
-email: pixelypincel@gmail.com
+email: hola@pixelypincel.es
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pixelypincel.es" # the base hostname & protocol for your site
