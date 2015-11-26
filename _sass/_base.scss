@@ -89,7 +89,7 @@ aside {
     }
     div {
       vertical-align: top;
-      display: inline;
+      display: none;
     }
   }
   .nav {
@@ -153,6 +153,9 @@ aside {
         }
         img {
           height: 100%;
+          display: inline;
+        }
+        div {
           display: inline;
         }
       }
