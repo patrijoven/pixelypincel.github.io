@@ -138,3 +138,10 @@ body { -webkit-tap-highlight-color: #222; }
   right: 0px;
   padding: 10px;
 }
+
+#taller-header {
+  padding: 100px 0px 0px 0px;
+}
+
+.taller-info { font-size: 23px; margin-bottom: 40px; }
+.taller-info li { display: block; padding-bottom: 10px}

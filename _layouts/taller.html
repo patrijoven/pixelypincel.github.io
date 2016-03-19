@@ -5,19 +5,33 @@
 
 <body id="page-top">
 {% include nav.html %}
-<section id="post-header">
+<section id="taller-header">
   <h1 class="text-center"><strong>{{ page.title }}</strong></h1>
-  <h4 class="text-center"><strong>{{ page.date | date_to_string }}</strong>
-    <small> . {{ page.category }} . <a href="{{ page.url }}#disqus_thread">Comments</a>
-      {% for tag in page.tags %}
-      <a href="/tag/{{ tag }}/">#{{ tag }}</a>
-      {% endfor %}
-    </small>
-  </h4>
 </section>
-{{content}}
 
-<section id="post-navigation" class="container page-navigation">
+<section id="taller-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <ul class="taller-info">
+          <li class="fa fa-child"> {{page.taller_edad}}</li>
+          <li class="fa fa-calendar"> {{page.taller_fecha}}</li>
+          <li class="fa fa-clock-o"> {{page.taller_horario}}</li>
+          <li class="fa fa-map-marker"> <a href="{{page.taller_mapa}}">{{page.taller_lugar}}</a></li>
+        </ul>
+
+        {{content}}
+
+          <a href="{{page.taller_inscripcion}}" class="btn btn-primary btn-lg center-block"><i class="fa fa-ticket fa-2x"></i> inscríbete</a>
+      </div>
+      <div class="colo-lg-4">
+        <img src="{{page.taller_imagen}}">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="taller-navigation" class="container page-navigation">
   {% if page.previous.url %}
   <a class="prev" href="{{page.previous.url}}"><i class="fa fa-chevron-left"></i> {{page.previous.title}}</a>
   {% endif %}
