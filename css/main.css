@@ -145,3 +145,12 @@ body { -webkit-tap-highlight-color: #222; }
 
 .taller-info { font-size: 23px; margin-bottom: 40px; }
 .taller-info li { display: block; padding-bottom: 10px}
+
+.btn-xlarge {
+  padding: 18px 28px;
+  font-size: 22px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
