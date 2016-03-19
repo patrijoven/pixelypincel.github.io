@@ -1,15 +1,16 @@
 ---
-title:  "title"
+title:  "Primavera Creativa Mini: Pixilación (stop motion)"
 date:   2016-03-19 16:27:44
+layout: taller
 
 taller_activo: si
-taller_fecha: fecha
-taller_horario: hora
-taller_lugar: lugar
-taller_edad: edad
-taller_imagen: image
-taller_inscripcion: inscripcion
-taller_mapa: mapa
+taller_fecha: 31 marzo 2016 / 1 abril 2016
+taller_horario: tardes (de 16:30 a 20:30h) 
+taller_lugar: ETOPIA Centro de Arte y Tecnología, Zaragoza
+taller_edad: a partir de 5 años
+taller_imagen: /img/talleres/primavera_creativa_agenda.jpg
+taller_inscripcion: https://www.ticketea.com/entradas-taller-primavera-creativa-mini-pixilacion-stop-motion-/
+taller_mapa: "https://www.google.com/maps/place/ETOPIA+Centro+de+Arte+y+Tecnolog%C3%ADa/@41.6590242,-0.9090006,17z/data=!3m1!4b1!4m2!3m1!1s0x0000000000000000:0x12f8c30f1a51a61f"
 ---
 Obtendremos pequeños cortometrajes realizados foto a foto, (mediante la técnica de pixilación); utilizando materiales de carácter manual (dibujos, recortables...) y a los propios asistentes como protagonistas.
 

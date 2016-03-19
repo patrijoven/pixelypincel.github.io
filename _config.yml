@@ -18,4 +18,3 @@ collections:
   talleres:
     output: true
     permalink: /:collection/:path/
-    layout: taller
