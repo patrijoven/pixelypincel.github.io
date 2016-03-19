@@ -1,7 +1,7 @@
 ---
 layout: taller
 title:  "Primavera Creativa Mini: Pixilación (stop motion)"
-date:   2015-10-30 16:27:44
+date:   2016-03-19 16:27:44
 
 taller_activo: si
 taller_fecha: 31 marzo 2016 / 1 abril 2016
