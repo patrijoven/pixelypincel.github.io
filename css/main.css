@@ -514,3 +514,12 @@ body {
     -moz-border-radius: 8px;
     border-radius: 8px;
 }
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    margin-right:-4px;
+}
