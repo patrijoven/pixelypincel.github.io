@@ -14,3 +14,7 @@ youtube_username: pixelypincel
 
 # Build settings
 markdown: kramdown
+
+collections:
+  talleres:
+    output: true
