@@ -17,12 +17,13 @@
           <li class="fa fa-child"> {{page.taller_edad}}</li>
           <li class="fa fa-calendar"> {{page.taller_fecha}}</li>
           <li class="fa fa-clock-o"> {{page.taller_horario}}</li>
-          <li class="fa fa-map-marker"> <a href="{{page.taller_mapa}}" target="_blank">{{page.taller_lugar}}</a></li>
+          <li class="fa fa-map-marker"><a href="{{page.taller_mapa}}" target="_blank">{{page.taller_lugar}}</a></li>
         </ul>
 
         {{content}}
 
-         <a href="{{page.taller_inscripcion}}" class="btn btn-warning  btn-block btn-xlarge"><i class="fa fa-ticket fa-2x fa-pull-left"></i> quiero ir</a>
+        <a href="{{page.taller_inscripcion}}" class="btn btn-warning  btn-block btn-xlarge"><i
+          class="fa fa-ticket fa-2x fa-pull-left"></i> quiero ir</a>
       </div>
       <div class="colo-lg-4 text-center  wow bounceIn">
         <img src="{{page.taller_imagen}}">
@@ -31,6 +32,11 @@
   </div>
 </section>
 
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+    {% include mailchimp-subscribe.html %}
+  </div>
+</div>
 
 {% include contact.html %}
 {% include scripts.html %}

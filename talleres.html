@@ -4,8 +4,9 @@ layout: page
 permalink: /talleres/index.html
 ---
 <div class="row row-centered">
-{% for taller in site.talleres %}
-{% include taller-thumb.html %}
-{% endfor %}
+  {% include mailchimp-subscribe.html %}
+  {% for taller in site.talleres %}
+  {% include taller-thumb.html %}
+  {% endfor %}
 </div>
 
