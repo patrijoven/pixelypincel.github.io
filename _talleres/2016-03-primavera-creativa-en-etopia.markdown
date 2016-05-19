@@ -5,7 +5,7 @@ layout: taller
 
 taller_activo: no
 taller_fecha: 31 marzo 2016 / 1 abril 2016
-taller_horario: tardes (de 16:30 a 20:30h) 
+taller_horario: tardes (de 16:30 a 20:30h)
 taller_lugar: ETOPIA Centro de Arte y Tecnología, Zaragoza
 taller_edad: a partir de 5 años
 taller_imagen: /img/talleres/primavera_creativa_agenda.jpg
