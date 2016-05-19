@@ -17,4 +17,14 @@ Obtendremos pequeños cortometrajes realizados foto a foto, (mediante la técnic
 En el taller se entremezclan el uso de nuevas tecnologías, con las técnicas más artesanales de animación, descubriendo un mundo lleno de posibilidades, en el que el único límite es Tu imaginación.
 Se potencia en los participantes la importancia del trabajo en equipo, la colaboración, etc… así como el desarrollo de la imaginación y la creatividad tanto individual como colectiva.
 
+## Aquí tenéis algunos ejemplos de lo que hicimos ##
+
+{% include youtube.html video="LbDbJpVEtnI" %}
+{% include youtube.html video="P3Ol8nY9rEM" %}
+{% include youtube.html video="mK8R4zu77Tk" %}
+{% include youtube.html video="kPEO2IudA3Y" %}
+{% include youtube.html video="BuD15cUKJys" %}
+{% include youtube.html video="3X5MJqUPCj0" %}
+
+
 Para cualquier duda [contacta con nosotras](#contac)!
