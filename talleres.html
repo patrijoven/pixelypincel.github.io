@@ -3,10 +3,35 @@ title: nuestros talleres
 layout: page
 permalink: /talleres/index.html
 ---
-<div class="row row-centered">
-  {% include mailchimp-subscribe.html %}
-  {% for taller in site.talleres %}
-  {% include taller-thumb.html %}
-  {% endfor %}
-</div>
+{% assign talleres_activos = (site.talleres | where: 'taller_activo', "si") %}
+
+  <div class="container">
+    <div class="row row-centered">
+      {% include mailchimp-subscribe.html %}
+    </div>
+  </div>
+
+{% if talleres_activos.size > 0 %}
+  <div class="container">
+    <div class="row row-centered">
+      <h2 class="section-heading">Próximos talleres</h2>
+      <hr class="primary">
+      {% for taller in talleres_activos %}
+      {% include taller-thumb.html %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+  <div class="container">
+    <div class="row row-centered">
+      <h2 class="section-heading">Talleres pasados</h2>
+      <hr class="primary">
+      {% for taller in site.talleres %}
+      {% if taller.taller_activo == false %}
+      {% include taller-thumb.html %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 
