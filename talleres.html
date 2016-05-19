@@ -1,37 +1,81 @@
 ---
 title: nuestros talleres
 layout: page
+section: talleres
 permalink: /talleres/index.html
 ---
+<section id="talleres-intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">“Tallerea” con Pixel y Pincel</h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <div>
+          <p>¡Mira! ¡Asómaté! y espíanos por un agujerito…</p>
+          <p>Descubrirás lo bien que lo pasamos en nuestros talleres creativos de Stop Motion y Pixilación, donde
+            aprendemos a través del ARTE y de la DIVERSIÓN.</p>
+
+          {% include youtube.html video="LbDbJpVEtnI" %}
+          <p>Por ejemplo, <a href="/talleres/2016-03-primavera-creativa-en-etopia/">en éste taller nos convertimos en
+            MAGOS por un día</a>, y realizamos todo tipo de trucos fantásticos. Pasamos unas tardes maravillosas en
+            Etopía, en compañía de increíbles magos y amigos ¡GRACIAS A TODOS
+            ELL@S!!</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 {% assign talleres_activos = (site.talleres | where: 'taller_activo', "si") %}
-
-  <div class="container">
-    <div class="row row-centered">
-      {% include mailchimp-subscribe.html %}
-    </div>
-  </div>
-
 {% if talleres_activos.size > 0 %}
+<section id="proximos-talleres" class="bg-primary">
   <div class="container">
     <div class="row row-centered">
-      <h2 class="section-heading">Próximos talleres</h2>
-      <hr class="primary">
-      {% for taller in talleres_activos %}
-      {% include taller-thumb.html %}
-      {% endfor %}
+      <div class="col-md-12 text-center">
+        <h2 class="section-heading">Próximos talleres</h2>
+        <hr class="primary">
+        {% for taller in talleres_activos %}
+        {% include taller-thumb.html %}
+        {% endfor %}
+      </div>
     </div>
   </div>
+  </div>
+</section>
 {% endif %}
 
+<section id="subscribe">
   <div class="container">
     <div class="row row-centered">
-      <h2 class="section-heading">Talleres pasados</h2>
-      <hr class="primary">
-      {% for taller in site.talleres %}
-      {% if taller.taller_activo == false %}
-      {% include taller-thumb.html %}
-      {% endif %}
-      {% endfor %}
+      <div class="col-md-8 col-md-offset-2 text-center">
+        {% include mailchimp-subscribe.html %}
+      </div>
     </div>
   </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row row-centered">
+      <div class="col-md-12 text-center">
+        <h2 class="section-heading">Talleres finalizados</h2>
+        <hr class="primary">
+        {% for taller in site.talleres %}
+        {% if taller.taller_activo == false %}
+        {% include taller-thumb.html %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
 
