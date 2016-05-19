@@ -568,7 +568,8 @@ label {
 }
 
 #page-talleres .youtube-container {
-    min-height: 300px;
+    min-height: 280px;
+    min-width: 500px;
 }
 
 #page-talleres section {
