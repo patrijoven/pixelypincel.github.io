@@ -3,7 +3,7 @@ title:  "DEL PAPEL A LA PANTALLA <br/> Taller de Stop Motion para adultos"
 date:   2016-03-20 16:27:44
 layout: taller
 
-taller_activo: si
+taller_activo: no
 taller_fecha: 5 abril 2016 / 7 abril 2016
 taller_horario: mañanas (de 10:00 a 13:00h)
 taller_lugar: Zaragoza Activa Las Armas (C/ Las armas, 72)
