@@ -22,8 +22,10 @@
 
         {{content}}
 
+        {% if page.taller_activo %}
         <a href="{{page.taller_inscripcion}}" class="btn btn-warning  btn-block btn-xlarge"><i
           class="fa fa-ticket fa-2x fa-pull-left"></i> quiero ir</a>
+        {% endif %}
       </div>
       <div class="colo-lg-4 text-center  wow bounceIn">
         <img src="{{page.taller_imagen}}">
